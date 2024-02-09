@@ -1,0 +1,25 @@
+button:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 0;
+    transition: 0.1s ease-in;
+}
+
+a:hover{
+    opacity: 0.5;
+    transition: 0.1s ease-in;
+}
+
+.header__logo:hover{
+    opacity: 0.9;
+    transform: none;
+    box-shadow: none;
+    transition: 0.1s ease-in;
+}
+
+.footer__language button:hover{
+    opacity: 0.5;
+    transform: none;
+    box-shadow: none;
+    transition: 0.1s ease-in;
+}
+

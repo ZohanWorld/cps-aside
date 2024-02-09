@@ -1,0 +1,209 @@
+@import url('animations/aside_animations.css');
+
+@font-face {
+    font-family: 'TTLakes';
+<<<<<<< HEAD:aside.css
+    src: url('fonts/TTLakes-Regular.ttf'), ('fonts/TTLakesCondensed-Bold.ttf');
+=======
+    src: url('../fonts/TTLakes-Regular.ttf'), ('../fonts/TTLakesCondensed-Bold.ttf');
+>>>>>>> 256069ad3d2a5813376733fe74a561bcebb9ff80:css/aside.css
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html,
+body{
+    position: sticky;
+    height: 100%;
+}
+
+body{
+    width: 320px;
+    box-shadow: -20px 0 50px 0;
+}
+
+button{
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__button--close{
+<<<<<<< HEAD:aside.css
+    background-image: url(src/svg/close.svg);
+=======
+    background-image: url(../src/svg/close.svg);
+>>>>>>> 256069ad3d2a5813376733fe74a561bcebb9ff80:css/aside.css
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 16px;
+}
+
+.header__button--search{
+<<<<<<< HEAD:aside.css
+    background-image: url(src/svg/search.svg);
+=======
+    background-image: url(../src/svg/search.svg);
+>>>>>>> 256069ad3d2a5813376733fe74a561bcebb9ff80:css/aside.css
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header__logo{
+    width: 97px;
+    height: 51px;    
+<<<<<<< HEAD:aside.css
+    background-image: url(src/svg/cps-logo.svg);
+=======
+    background-image: url(../src/svg/cps-logo.svg);
+>>>>>>> 256069ad3d2a5813376733fe74a561bcebb9ff80:css/aside.css
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.footer__button--call{
+<<<<<<< HEAD:aside.css
+    background-image: url(src/svg/call.svg);
+=======
+    background-image: url(../src/svg/call.svg);
+>>>>>>> 256069ad3d2a5813376733fe74a561bcebb9ff80:css/aside.css
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.footer__button--chat{
+<<<<<<< HEAD:aside.css
+    background-image: url(src/svg/chat.svg);
+=======
+    background-image: url(../src/svg/chat.svg);
+>>>>>>> 256069ad3d2a5813376733fe74a561bcebb9ff80:css/aside.css
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.footer__button--profile{
+<<<<<<< HEAD:aside.css
+    background-image: url(src/svg/profile.svg);
+=======
+    background-image: url(../src/svg/profile.svg);
+>>>>>>> 256069ad3d2a5813376733fe74a561bcebb9ff80:css/aside.css
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.header{
+    padding: 24px;
+}
+
+.header__button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #FF3E79;
+}
+
+
+.header__list{
+    display: flex;
+    align-items: center;
+}
+
+.header__item--last{
+    margin-left: auto;
+}
+
+.main{
+    flex: 1 1 auto;
+}
+
+.main__item{
+    margin: 0 0 32px 24px;
+}
+
+.main__link{
+    font-family: "TTLakes";
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #1B1C21;
+}
+
+.main__link--active{
+    color: #7E7E82;
+    position: relative;
+}
+
+.main__link--active::before{
+    content: "";
+    width: 4px;
+    height: 32px;
+    border-radius: 0 10px 10px 0;
+    background-color: #41F6D7;
+    position: absolute;
+    transform: translate(-24px, -5px);
+}
+
+.footer__navigation{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.footer__list{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.footer__button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #FF3E79;
+}
+
+.footer__mail{
+    font-family: "TTLakes";
+    color: #1B1C21;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+.footer__phone{
+    font-family: "TTLakes";
+    color: #1B1C21;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: left;
+}
+
+.footer__language{
+    display: flex;
+    gap: 7px;
+    margin-top: 40px;
+}
+
+.footer__language-ru{
+    color: #7E7E82;
+}
+
+
