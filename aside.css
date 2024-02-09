@@ -2,11 +2,7 @@
 
 @font-face {
     font-family: 'TTLakes';
-<<<<<<< HEAD:aside.css
     src: url('fonts/TTLakes-Regular.ttf'), ('fonts/TTLakesCondensed-Bold.ttf');
-=======
-    src: url('../fonts/TTLakes-Regular.ttf'), ('../fonts/TTLakesCondensed-Bold.ttf');
->>>>>>> 256069ad3d2a5813376733fe74a561bcebb9ff80:css/aside.css
     font-weight: normal;
     font-style: normal;
 }
@@ -42,22 +38,14 @@ button{
 }
 
 .header__button--close{
-<<<<<<< HEAD:aside.css
     background-image: url(src/svg/close.svg);
-=======
-    background-image: url(../src/svg/close.svg);
->>>>>>> 256069ad3d2a5813376733fe74a561bcebb9ff80:css/aside.css
     background-repeat: no-repeat;
     background-position: center center;
     margin-right: 16px;
 }
 
 .header__button--search{
-<<<<<<< HEAD:aside.css
     background-image: url(src/svg/search.svg);
-=======
-    background-image: url(../src/svg/search.svg);
->>>>>>> 256069ad3d2a5813376733fe74a561bcebb9ff80:css/aside.css
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -65,41 +53,25 @@ button{
 .header__logo{
     width: 97px;
     height: 51px;    
-<<<<<<< HEAD:aside.css
     background-image: url(src/svg/cps-logo.svg);
-=======
-    background-image: url(../src/svg/cps-logo.svg);
->>>>>>> 256069ad3d2a5813376733fe74a561bcebb9ff80:css/aside.css
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .footer__button--call{
-<<<<<<< HEAD:aside.css
     background-image: url(src/svg/call.svg);
-=======
-    background-image: url(../src/svg/call.svg);
->>>>>>> 256069ad3d2a5813376733fe74a561bcebb9ff80:css/aside.css
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .footer__button--chat{
-<<<<<<< HEAD:aside.css
     background-image: url(src/svg/chat.svg);
-=======
-    background-image: url(../src/svg/chat.svg);
->>>>>>> 256069ad3d2a5813376733fe74a561bcebb9ff80:css/aside.css
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .footer__button--profile{
-<<<<<<< HEAD:aside.css
     background-image: url(src/svg/profile.svg);
-=======
-    background-image: url(../src/svg/profile.svg);
->>>>>>> 256069ad3d2a5813376733fe74a561bcebb9ff80:css/aside.css
     background-repeat: no-repeat;
     background-position: center center;
 }
