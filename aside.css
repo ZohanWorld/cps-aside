@@ -170,8 +170,17 @@ button{
     margin-top: 40px;
 }
 
-.footer__language-ru{
-    color: #7E7E82;
+.footer__radio{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
+.footer__radio-label{
+    font-family: "TTLakes";
+    color: #1B1C21;
+}
 
+.footer__radio:checked + label{
+    color: #7E7E82;
+}
