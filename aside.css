@@ -16,7 +16,7 @@
 
 html,
 body{
-    position: sticky;
+    position: fixed;
     height: 100%;
 }
 
